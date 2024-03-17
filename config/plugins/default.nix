@@ -14,6 +14,9 @@
 
     ./lsp.nix
     ./lspsaga.nix
+
+    ./cmp.nix
+    ./lspkind.nix
   ];
 
   plugins.bufferline.enable = true;
