@@ -1,17 +1,28 @@
 {
   plugins = {
-    lsp-format = {enable = true;};
+    lsp-format.enable = true;
     lsp = {
       enable = true;
       servers = {
-        html = {enable = true;};
-        lua-ls = {enable = true;};
-        nil_ls = {enable = true;};
-        marksman = {enable = true;};
-        pyright = {enable = true;};
-        gopls = {enable = true;};
-        terraformls = {enable = true;};
-        yamlls = {enable = true;};
+        html.enable = true;
+        lua-ls.enable = true;
+        nil_ls.enable = true;
+        tsserver.enable = true;
+        marksman.enable = true;
+        pyright.enable = true;
+        gopls.enable = true;
+        terraformls.enable = true;
+        yamlls.enable = true;
+        dockerls.enable = true;
+        rust-analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+          settings = {
+            numThreads = 16;
+            runnables.extraArgs = ["--release"];
+          };
+        };
       };
       keymaps = {
         silent = true;

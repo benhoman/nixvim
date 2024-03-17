@@ -1,5 +1,10 @@
-{
-  globals.mapleader = " ";
+let
+  leader = " ";
+in {
+  globals = {
+    mapleader = leader;
+    localmapleader = leader;
+  };
 
   # Import all your configuration modules here
   imports = [
