@@ -1,4 +1,4 @@
-let
+{pkgs, ...}: let
   leader = " ";
 in {
   globals = {
@@ -12,5 +12,16 @@ in {
     ./keymaps.nix
     ./options.nix
     ./plugins
+  ];
+
+  extraPackages = with pkgs; [
+    # formatters
+    alejandra
+    black
+    isort
+    prettierd
+    ruff
+    yamlfmt
+    yamllint
   ];
 }
