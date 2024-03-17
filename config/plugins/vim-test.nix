@@ -10,8 +10,8 @@
     vim.g["test#python#djangotest#executable"] = "ca test"
     vim.g["test#python#pytest#executable"] = "ca test"
 
-    vim.g["floaterm_height"] = 0.9
-    vim.g["floaterm_width"] = 0.9
+    vim.g.floaterm_height = 0.9
+    vim.g.floaterm_width = 0.9
   '';
 
   keymaps = [
