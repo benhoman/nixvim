@@ -20,6 +20,7 @@
     # ./oil.nix
     ./illuminate.nix
     ./hlchunk.nix
+    ./vim-test.nix
   ];
 
   plugins.bufferline.enable = true;
