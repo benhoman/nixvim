@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="assets/neovim-flake-logo-work.svg" alt="neovim-flake Logo"  width="200">
+</div>
+
 # Nixvim template
 
 This template gives you a good starting point for configuring nixvim standalone.
