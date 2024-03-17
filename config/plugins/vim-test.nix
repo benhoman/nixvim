@@ -4,15 +4,15 @@
     vim-floaterm
   ];
 
-  extraConfigLua = ''
-    vim.g["test#strategy"] = "floaterm"
-    vim.g["test#python#runner"] = "djangotest"
-    vim.g["test#python#djangotest#executable"] = "ca test"
-    vim.g["test#python#pytest#executable"] = "ca test"
+  globals = {
+    "test#strategy" = "floaterm";
+    "test#python#runner" = "djangotest";
+    "test#python#djangotest#executable" = "ca test";
+    "test#python#pytest#executable" = "ca test";
 
-    vim.g.floaterm_height = 0.9
-    vim.g.floaterm_width = 0.9
-  '';
+    floaterm_height = 0.9;
+    floaterm_width = 0.9;
+  };
 
   keymaps = [
     {
