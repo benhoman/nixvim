@@ -9,7 +9,7 @@
     {
       mode = "n";
       key = "]t";
-      action = ''require("todo-comments").jump_next()'';
+      action = ''require("todo-comments").jump_next'';
       lua = true;
       options = {
         silent = true;
@@ -19,7 +19,7 @@
     {
       mode = "n";
       key = "[t";
-      action = ''require("todo-comments").jump_prev()'';
+      action = ''require("todo-comments").jump_prev'';
       lua = true;
       options = {
         silent = true;

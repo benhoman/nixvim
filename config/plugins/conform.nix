@@ -9,10 +9,10 @@
       # # Use the "_" filetype to run formatters on filetypes that don't
       # # have other formatters configured.
       # "_" = [ "trim_whitespace" ];
-      lua = [ "stylua" ];
-      python = [ "isort" "black" ];
-      javascript = [ [ "prettierd" "prettier" ] ];
-      json = [ "jq" ];
+      lua = ["stylua"];
+      python = ["isort" "black"];
+      javascript = [["prettierd" "prettier"]];
+      json = ["jq"];
       html = [["prettierd" "prettier"]];
       css = [["prettierd" "prettier"]];
       javascriptreact = [["prettierd" "prettier"]];
