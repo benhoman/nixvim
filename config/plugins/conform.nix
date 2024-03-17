@@ -13,7 +13,6 @@
       python = [ "isort" "black" ];
       javascript = [ [ "prettierd" "prettier" ] ];
       json = [ "jq" ];
-      liquidsoap = ["liquidsoap-prettier"];
       html = [["prettierd" "prettier"]];
       css = [["prettierd" "prettier"]];
       javascriptreact = [["prettierd" "prettier"]];
