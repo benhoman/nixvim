@@ -18,6 +18,8 @@
     ./lspkind.nix
     ./copilot-lua.nix
     # ./oil.nix
+    ./illuminate.nix
+    ./hlchunk.nix
   ];
 
   plugins.bufferline.enable = true;
