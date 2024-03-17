@@ -14,6 +14,7 @@
 
     ./lsp.nix
     ./lspsaga.nix
+    ./luasnip.nix
 
     ./cmp.nix
     ./lspkind.nix
