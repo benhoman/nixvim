@@ -11,13 +11,13 @@
     ./treesitter.nix
     ./todo-comments.nix
     ./undotree.nix
-
     ./lsp.nix
     ./lspsaga.nix
     ./luasnip.nix
-
     ./cmp.nix
     ./lspkind.nix
+    ./copilot-lua.nix
+    # ./oil.nix
   ];
 
   plugins.bufferline.enable = true;
@@ -25,6 +25,4 @@
   plugins.nix.enable = true;
   plugins.nix-develop.enable = true;
   plugins.which-key.enable = true;
-
-  # plugins.copilot-lua.enable = true;
 }
