@@ -18,11 +18,11 @@
     }
 
 
-    {
-      mode = "n";
-      key = "J";
-      action = "mzJ`z";
-    }
+    # {
+    #   mode = "n";
+    #   key = "J";
+    #   action = "mzJ`z";
+    # }
     {
       mode = "n";
       key = "<C-d>";

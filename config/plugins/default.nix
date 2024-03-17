@@ -11,6 +11,9 @@
     ./treesitter.nix
     ./todo-comments.nix
     ./undotree.nix
+
+    ./lsp.nix
+    ./lspsaga.nix
   ];
 
   plugins.bufferline.enable = true;
