@@ -1,7 +1,7 @@
 {
   colorschemes = {
     catppuccin = {
-      enable = false;
+      enable = true;
       flavour = "mocha";
       transparentBackground = true;
       integrations = {
@@ -14,7 +14,7 @@
       };
     };
     tokyonight = {
-      enable = true;
+      enable = false;
       style = "night";
       transparent = true;
     };
