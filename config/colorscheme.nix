@@ -34,17 +34,21 @@
     };
     kanagawa = {
       enable = false;
-      compile = true;
-      transparent = false;
+      settings = {
+        compile = true;
+        transparent = false;
+      };
     };
     onedark.enable = false;
     rose-pine = {
       enable = false;
-      # style = "moon";
-      transparentBackground = false;
+      settings = {
+        # style = "moon";
+        transparentBackground = false;
+      };
     };
     tokyonight = {
-      enable = true;
+      enable = false;
       settings = {
         style = "night";
         transparent = true;
