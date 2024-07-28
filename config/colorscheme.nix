@@ -19,15 +19,17 @@
     };
     catppuccin = {
       enable = true;
-      flavour = "macchiato";
-      transparentBackground = true;
-      integrations = {
-        fidget = true;
-        gitsigns = true;
-        harpoon = true;
-        treesitter = true;
-        treesitter_context = true;
-        which_key = true;
+      settings = {
+        flavour = "mocha";
+        transparentBackground = true;
+        integrations = {
+          fidget = true;
+          gitsigns = true;
+          harpoon = true;
+          treesitter = true;
+          treesitter_context = true;
+          which_key = true;
+        };
       };
     };
     kanagawa = {
@@ -42,9 +44,11 @@
       transparentBackground = false;
     };
     tokyonight = {
-      enable = false;
-      style = "storm";
-      transparent = true;
+      enable = true;
+      settings = {
+        style = "night";
+        transparent = true;
+      };
     };
   };
 }

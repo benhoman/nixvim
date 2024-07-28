@@ -9,8 +9,7 @@
     {
       mode = "n";
       key = "]t";
-      action = ''require("todo-comments").jump_next'';
-      lua = true;
+      action.__raw = ''require("todo-comments").jump_next'';
       options = {
         silent = true;
         desc = "Next todo comment";
@@ -19,8 +18,7 @@
     {
       mode = "n";
       key = "[t";
-      action = ''require("todo-comments").jump_prev'';
-      lua = true;
+      action.__raw = ''require("todo-comments").jump_prev'';
       options = {
         silent = true;
         desc = "Previous todo comment";

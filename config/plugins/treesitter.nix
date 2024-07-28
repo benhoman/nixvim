@@ -1,7 +1,11 @@
 {pkgs, ...}: {
   plugins.treesitter = {
     enable = true;
-    indent = true;
+    settings = {
+      indent = {
+        enable = true;
+      };
+    };
     folding = false;
     nixvimInjections = true;
     grammarPackages = pkgs.vimPlugins.nvim-treesitter.passthru.allGrammars;

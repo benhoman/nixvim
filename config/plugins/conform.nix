@@ -32,8 +32,7 @@
     {
       mode = "";
       key = "<leader>cf";
-      lua = true;
-      action = ''
+      action.__raw = ''
         function()
           require("conform").format({
             async = true,
